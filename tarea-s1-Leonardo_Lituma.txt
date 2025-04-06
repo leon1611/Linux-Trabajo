@@ -1,0 +1,78 @@
+ 1043* pwd
+ 1044* mkdir proyecto_comandos
+ 1045* cd Proyecto_Comandos/
+ 1046* mkdir Documentos Imagenes Scripts
+ 1047* cd Documentos
+ 1048* touch notas.txt
+ 1049* nano notas.txt
+ 1050* cd ../Scripts
+ 1051* cp notas.txt ../Scripts
+ 1052* cp ../Documentos/notas.txt .
+ 1053* mv backup_notas.txt ../Imagenes/
+ 1054*  cd /Users/leonardo/
+ 1055* rm -r Proyecto_Comandos/
+ 1056  pwd
+ 1057  mkdir proyecto_comandos
+ 1058  cd Proyecto_Comandos/
+ 1059  mkdir Documentos Imagenes Scripts
+ 1060  cd Documentos
+ 1061  touch notas.txt
+ 1062  nano notas.txt
+ 1063  cp notas.txt Scripts
+ 1064  cd ../Scripts
+ 1065  ls
+ 1066  cd ../Documentos/
+ 1067  ls
+ 1068  rm -r Scripts
+ 1069  ls
+ 1070  cd ../
+ 1071  ls
+ 1072  cp notas.txt ../Scripts
+ 1073  cp notas.txt ../Scripts
+ 1074  cd Documentos
+ 1075  cp notas.txt ../Scripts
+ 1076  cd ../Scripts
+ 1077  ls
+ 1078  mv notas.txt backup_notas.txt
+ 1079  ls
+ 1080  mv backup_notas.txt ../Imagenes/
+ 1081  cd ../Imagenes/
+ 1082  ls
+ 1083  cd ../Documentos/
+ 1084  touch resumen.txt
+ 1085  ls
+ 1086  cat notas.txt >resumen.txt
+ 1087  cat resumen.txt
+ 1088  echo "Se realizo con exito" >> resumen.txt
+ 1089  cat resumen.txt
+ 1090  cd  ../Scripts/
+ 1091  rm backup_notas.txt
+ 1092  rm -f backup_notas.txt
+ 1093  ls
+ 1094  cd ..
+ 1095  cp notas.txt ../Scripts
+ 1096  cd Documentos
+ 1097  cp notas.txt ../Scripts
+ 1098  cd ../Scripts
+ 1099  ls
+ 1100  mv notas.txt backup_notas.txt
+ 1101  ls
+ 1102  cd ../Documentos/
+ 1103  ls
+ 1104  cd ../Imagenes/
+ 1105  ls
+ 1106  rm backup_notas.txt
+ 1107  ls
+ 1108  cd ..
+ 1109  cd I
+ 1110  cd Imagenes
+ 1111  cd -
+ 1112  rm -r Imagenes/
+ 1113  ls
+ 1114  history | tee tarea-s1-nombre_apellido.txt
+ 1115  history
+ 1116  mv tarea-s1-nombre_apellido.txt tarea-s1-Leonardo_Lituma.txt
+ 1117  history 50
+ 1118  history 50 | tee tarea-s1-Miguel_Lituma.txt
+ 1119  ls
+ 1120  nano tarea-s1-Miguel_Lituma.txt
